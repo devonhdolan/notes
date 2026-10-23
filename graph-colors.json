@@ -1,10 +1,29 @@
 {
   "_comment": "Graph color groups (Quartz's version of Obsidian's graph color groups). First match wins. 'match' is a path prefix (folder) or 'tag:<name>' matched against the page's tags. Paths are Quartz slugs: spaces become dashes; matching ignores case.",
   "groups": [
-    { "match": "Interest-Graph/Topics/", "color": "#e8a33d" },
-    { "match": "Interest-Graph/Funding/", "color": "#4fb37c" },
-    { "match": "Interest-Graph/", "color": "#c46bd6" },
-    { "match": "Issues/", "color": "#5b8def" },
-    { "match": "tags/", "color": "#9a9a9a" }
+    {
+      "match": "Interest-Graph/Topics/",
+      "color": "#e8a33d"
+    },
+    {
+      "match": "Interest-Graph/Funding/",
+      "color": "#4fb37c"
+    },
+    {
+      "match": "Interest-Graph/",
+      "color": "#c46bd6"
+    },
+    {
+      "match": "Backfills/",
+      "color": "#e0607e"
+    },
+    {
+      "match": "Issues/",
+      "color": "#5b8def"
+    },
+    {
+      "match": "tags/",
+      "color": "#9a9a9a"
+    }
   ]
 }
