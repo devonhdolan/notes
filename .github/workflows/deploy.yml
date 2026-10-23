@@ -30,6 +30,8 @@ jobs:
         run: npx quartz plugin install
       - name: Build Quartz
         run: npx quartz build
+      - name: Cap search index size
+        run: node scripts/trim-content-index.mjs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
